@@ -3,10 +3,15 @@ import {SolarUtil} from './SolarUtil';
 import {TaoUtil} from './TaoUtil';
 import {FotoUtil} from './FotoUtil';
 import {NineStarUtil} from './NineStarUtil';
-import {readFileSync} from 'fs';
-const chs = JSON.parse(readFileSync('./locales/chs.json', 'utf8'));
-const en = JSON.parse(readFileSync('./locales/en.json', 'utf8'));
-const vi = JSON.parse(readFileSync('./locales/vi.json', 'utf8'));
+
+const chsJSON = require('./locales/chs.json');
+const enJSON = require('./locales/en.json');
+const viJSON = require('./locales/vi.json');
+
+const chs = JSON.parse(chsJSON);
+const en = JSON.parse(enJSON);
+const vi = JSON.parse(viJSON);
+
 export class I18n {
     private static _DEFAULT_LANG: string = 'vi';
     private static _LANG: string;

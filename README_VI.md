@@ -1,12 +1,12 @@
 # lunar [![License](https://img.shields.io/badge/license-MIT-4EB1BA.svg?style=flat-square)](https://github.com/6tail/lunar-typescript/blob/master/LICENSE)
 
-lunar is a calendar library for Solar and Chinese Lunar.
+lunar là một thư viện lịch cho lịch Dương và lịch Âm Trung Quốc.
 
-[简体中文](https://github.com/6tail/lunar-typescript/blob/master/README.md) | [Tiếng Việt](https://github.com/6tail/lunar-typescript/blob/master/README_VI.md)
+[简体中文](https://github.com/6tail/lunar-typescript/blob/master/README.md) | [English](https://github.com/6tail/lunar-typescript/blob/master/README_EN.md)
 
-## Example
+## Ví dụ
 
-    // install
+    // cài đặt
     npm init -y
     npm i typescript -D
     npm i ts-node -D
@@ -20,18 +20,22 @@ lunar is a calendar library for Solar and Chinese Lunar.
     console.log(solar.toFullString());
     console.log(solar.getLunar().toFullString());
      
-    // run
+    // chạy
     ts-node test.ts
 
-Output:
+Kết quả:
 
     1986-05-29 00:00:00 星期四 双子座
     一九八六年四月廿一 丙寅(虎)年 癸巳(蛇)月 癸酉(鸡)日 子(鼠)时 纳音[炉中火 长流水 剑锋金 桑柘木] 星期四 北方玄武 星宿[斗木獬](吉) 彭祖百忌[癸不词讼理弱敌强 酉不会客醉坐颠狂] 喜神方位[巽](东南) 阳贵神方位[巽](东南) 阴贵神方位[震](正东) 福神方位[兑](正西) 财神方位[离](正南) 冲[(丁卯)兔] 煞[东]
 
-## Documentation
+## Tài liệu
 
-Please visit [https://6tail.cn/calendar/api.html](https://6tail.cn/calendar/api.html "https://6tail.cn/calendar/api.html")
+Vui lòng truy cập [https://6tail.cn/calendar/api.html](https://6tail.cn/calendar/api.html "https://6tail.cn/calendar/api.html")
 
-## Star History
+## Lịch sử thay đổi
 
-[![Star History Chart](https://api.star-history.com/svg?repos=6tail/lunar-typescript&type=Date)](https://star-history.com/#6tail/lunar-typescript&Date)
+Xem [CHANGELOG_VI.md](https://github.com/6tail/lunar-typescript/blob/master/CHANGELOG_VI.md) để biết thêm chi tiết.
+
+## Lịch sử Star
+
+[![Star History Chart](https://api.star-history.com/svg?repos=6tail/lunar-typescript&type=Date)](https://star-history.com/#6tail/lunar-typescript&Date) 
