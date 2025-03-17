@@ -1,4 +1,4 @@
-{
+export default {
     "tg.jia": "Jia",
     "tg.yi": "Yi",
     "tg.bing": "Bing",

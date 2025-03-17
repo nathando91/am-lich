@@ -3,15 +3,9 @@ import {SolarUtil} from './SolarUtil';
 import {TaoUtil} from './TaoUtil';
 import {FotoUtil} from './FotoUtil';
 import {NineStarUtil} from './NineStarUtil';
-
-const chsJSON = require('./locales/chs.json');
-const enJSON = require('./locales/en.json');
-const viJSON = require('./locales/vi.json');
-
-const chs = JSON.parse(chsJSON);
-const en = JSON.parse(enJSON);
-const vi = JSON.parse(viJSON);
-
+import chs from './locales/chs';
+import en from './locales/en';
+import vi from './locales/vi';
 export class I18n {
     private static _DEFAULT_LANG: string = 'vi';
     private static _LANG: string;

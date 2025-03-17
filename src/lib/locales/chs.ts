@@ -1,4 +1,4 @@
-{
+export default {
     "tg.jia": "甲",
     "tg.yi": "乙",
     "tg.bing": "丙",

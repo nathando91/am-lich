@@ -1,4 +1,4 @@
-{
+export default {
     "tg.jia": "Giáp",
     "tg.yi": "Ất",
     "tg.bing": "Bính",
